@@ -1,6 +1,6 @@
 import React from "react";
 import "./Wall.scss";
-import asd from "../../images/logo.png";
+import asd from "../../images/beach.jpg";
 
 const Wall = () => {
   return (
