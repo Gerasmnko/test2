@@ -1,3 +1,6 @@
 .navi {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-area: n;
+  background-color: bisque;
 }
