@@ -1,14 +1,12 @@
 import React from "react";
 import "./Wall.scss";
+import asd from "../../images/logo.png";
 
 const Wall = () => {
   return (
     <div className="wall">
       <div>
-        <img
-          className="logo"
-          src="http://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg"
-        />
+        <img className="logo" src={asd} alt="kuy" />
       </div>
       <div>Ava description</div>
       <div>Posts</div>
