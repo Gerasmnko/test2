@@ -4,7 +4,10 @@ import "./Header.scss";
 const Header = () => {
   return (
     <header className="header">
-      <h1>Well Hello</h1>
+      <img
+        className="logo"
+        src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+      />
     </header>
   );
 };
