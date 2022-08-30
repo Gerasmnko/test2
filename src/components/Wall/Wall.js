@@ -10,7 +10,7 @@ const Wall = () => {
           src="http://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg"
         />
       </div>
-      <div>Ava+description+pohuytest</div>
+      <div>Ava description+pohuytest</div>
       <div>Posts</div>
       <div>
         <div>Post1</div>
