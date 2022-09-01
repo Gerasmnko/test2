@@ -2,5 +2,9 @@
   display: flex;
   flex-direction: column;
   grid-area: n;
-  background-color: bisque;
+  background-color: rgb(226, 146, 48);
+
+  .item {
+    color: white;
+  }
 }

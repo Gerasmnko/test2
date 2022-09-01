@@ -4,10 +4,18 @@ import "./Navi.scss";
 const Navi = () => {
   return (
     <div className="navi">
-      <a>Main</a>
-      <a>Messages</a>
-      <a>News</a>
-      <a>Settings</a>
+      <div className="item">
+        <a>Main</a>
+      </div>
+      <div className="item">
+        <a>Messages</a>
+      </div>
+      <div className="item">
+        <a>News</a>
+      </div>
+      <div className="item">
+        <a>Settings</a>
+      </div>
     </div>
   );
 };
