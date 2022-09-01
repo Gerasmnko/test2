@@ -5,7 +5,7 @@ import Post from "./Posts/Post";
 const Posts = () => {
   return (
     <div className="allPosts">
-      Posts
+      <div>Posts</div>
       <textarea></textarea>
       <button>Add new post</button>
       <div className="posts">
