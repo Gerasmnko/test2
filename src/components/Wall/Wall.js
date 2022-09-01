@@ -1,7 +1,7 @@
 import React from "react";
 import "./Wall.scss";
 import asd from "../../images/beach.jpg";
-import Posts from "./AllPosts/Posts.scss";
+import Posts from "./AllPosts/Posts";
 
 const Wall = () => {
   return (
