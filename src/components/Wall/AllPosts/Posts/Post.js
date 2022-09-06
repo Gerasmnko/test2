@@ -1,8 +1,8 @@
 import React from "react";
 import "./Post.scss";
-import asd from "../../images/ava.jpg";
+import asd from "../../../../images/ava.JPG";
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div className="posts">
       <img className="ava" alt="kuy" src={asd} />
