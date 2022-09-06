@@ -1,20 +1,29 @@
 import React from "react";
-import "./Navi.scss";
+import { NavLink } from "react-router-dom";
+import i from "./Navi.scss";
 
 const Navi = () => {
   return (
     <div className="navi">
       <div className="item">
-        <a>Main</a>
+        <NavLink to="/wall" activeClassName={i.active}>
+          Main
+        </NavLink>
       </div>
       <div className="item">
-        <a>Messages</a>
+        <NavLink to="/dialogs" activeClassName={i.active}>
+          Messages
+        </NavLink>
       </div>
       <div className="item">
-        <a>News</a>
+        <NavLink to="/news" activeClassName={i.active}>
+          News
+        </NavLink>
       </div>
       <div className="item">
-        <a>Settings</a>
+        <NavLink to="/settings" activeClassName={i.active}>
+          Settings
+        </NavLink>
       </div>
     </div>
   );

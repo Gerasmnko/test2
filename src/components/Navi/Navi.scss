@@ -3,8 +3,13 @@
   flex-direction: column;
   grid-area: n;
   background-color: rgb(226, 146, 48);
+  padding: 20px;
 
-  .item {
+  .item a {
     color: white;
+    text-decoration: none;
+  }
+  .item a.active {
+    color: black;
   }
 }

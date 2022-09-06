@@ -1,10 +1,15 @@
 import React from "react";
 import "./Post.scss";
+import asd from "../../images/ava.jpg";
 
 const Post = () => {
   return (
     <div className="posts">
-      <div>Post</div>
+      <img className="ava" alt="kuy" src={asd} />
+      {props.message}
+      <div>
+        <span>like</span> {props.likesCount}
+      </div>
     </div>
   );
 };
