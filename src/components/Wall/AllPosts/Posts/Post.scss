@@ -1,8 +1,11 @@
 .post {
   color: black;
+}
 
-  .ava {
-    width: 50px;
-    border-radius: 30px;
-  }
+.ava {
+  max-width: 60px;
+  height: 40px;
+  border-radius: 25%;
+  padding: 0 10px;
+  margin: 4px 0 0;
 }
